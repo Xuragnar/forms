@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.post{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 50px ;
+    position: relative;
+}
+.post button{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 100%;
+    bottom: 100%;
+    padding: 5px;
+    transform: translate(-50%,50%);
+}
+.marker{
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid rgb(182, 16, 16);
+    top: 0; 
+    left: 0; 
+    transform: translate(-50%,-50%);
+    
+}
+nav{
+    padding: 30px;
+    background-color: grey;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+nav a{
+    color: #2c3e50;
+  text-decoration: none;
+  margin: 0 20px;
+}
